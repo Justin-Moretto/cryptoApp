@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cryptoapp-7aaed": {
+      "hosting": {
+        "cryptoApp": [
+          "cryptoapp-7aaed"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cryptoapp-7aaed"
+  }
+}

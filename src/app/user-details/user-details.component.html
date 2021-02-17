@@ -1,0 +1,7 @@
+<div *ngIf="auth.user | async as user; else login">
+  <h3>UID: {{ user.uid }}</h3>
+</div>
+
+<ng-template #login>
+  <button (click)="auth.login()">Login with Coinbase</button>
+</ng-template>
